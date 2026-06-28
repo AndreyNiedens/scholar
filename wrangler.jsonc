@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "scholar",
+  "compatibility_date": "2026-06-29",
+
+  "assets": {
+    "directory": ".",
+    "exclude": [
+      ".git/**",
+      ".github/**"
+    ]
+  },
+
+  "observability": {
+    "enabled": true
+  }
+}
